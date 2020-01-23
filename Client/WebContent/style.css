@@ -1,0 +1,90 @@
+body {
+	background-color: #000000;
+}
+
+img {
+	width: 20%;
+}
+
+h1 {
+	 color: #FFFFFF;
+}
+
+p {
+	color: #FECB00;
+}
+
+table.show {
+	width: 45%;
+}
+
+table.show tr {
+	background-color: #222222;
+	color: white;
+}
+
+table.show th {
+	background-color: #FECB00;
+	color: black;
+}
+
+/* unvisited link */
+a:link {
+    color: #FFFFFF;
+}
+
+/* visited link */
+a:visited {
+    color: #FFFFFF;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FECB00;
+}
+
+/* selected link */
+a:active {
+    color: #FECB00;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+label {
+    color: #FECB00;
+}
+
+div.add {
+	margin: 0 auto;
+	width: 45%;
+    border-radius: 5px;
+    background-color: #222222;
+    padding: 20px;
+}
+
+.error {
+	color: #FECB00;
+}

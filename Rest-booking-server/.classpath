@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jar/eclipselink.jar"/>
+	<classpathentry kind="lib" path="jar/gson-2.6.2.jar"/>
+	<classpathentry kind="lib" path="jar/h2-1.4.197.jar"/>
+	<classpathentry kind="lib" path="jar/javax.json-1.1.jar"/>
+	<classpathentry kind="lib" path="jar/javax.json-api_1.1.2.jar"/>
+	<classpathentry kind="lib" path="jar/javax.xml.bind_2.2.12.v201410011542.jar"/>
+	<classpathentry kind="lib" path="jar/jaxb-core_2.2.11.v201407311112.jar"/>
+	<classpathentry kind="lib" path="jar/jaxb-xjc_2.2.11.v201407311112.jar"/>
+	<classpathentry kind="lib" path="jar/jersey-client-1.19.1.jar"/>
+	<classpathentry kind="lib" path="jar/jersey-core-1.19.1.jar"/>
+	<classpathentry kind="lib" path="jar/jsr311-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="jar/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="jar/ojdbc14.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.5 (4)">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_181">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
